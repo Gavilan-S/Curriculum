@@ -1,7 +1,4 @@
-*
-{
-    border: 1px dotted tomato;
-}
+
 
 body
 {
@@ -10,7 +7,6 @@ body
     font-family: 'Varela Round', sans-serif;
     line-height: 1.5;
     padding: 10px 20px;
-    border: 1px solid tomato; 
 }
 
 .fotoHojaVida
