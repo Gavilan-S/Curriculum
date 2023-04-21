@@ -10,5 +10,10 @@ body
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
     padding: 10px 20px;
-    border: 1px solid black; 
+    border: 1px solid tomato; 
+}
+
+.fotoHojaVida
+{
+    width: 100px;
 }
