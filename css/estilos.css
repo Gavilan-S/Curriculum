@@ -15,5 +15,24 @@ body
 
 .fotoHojaVida
 {
-    width: 100px;
+    width: 150px;
+    border-radius: 100px;
+    border: 15px solid #FFDC0D;
+    vertical-align: text-top;
+}
+
+.nombreHeader
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #FFDC0D;
+}
+
+.subtituloNombreHeader
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
 }
