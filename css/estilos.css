@@ -46,5 +46,16 @@ section.izquierda > article > h2
 section.izquierda >article:nth-child(2n)
 {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 10% 90%;
+}
+
+section.izquierda >article:nth-child(2n) > p
+{
+    grid-column-start: 2;
+    border-bottom: 3px solid yellow;
+}
+
+section.izquierda >article:nth-child(2n) > hr
+{
+    border: 5px dotted yellow;
 }
