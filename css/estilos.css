@@ -26,6 +26,7 @@ body
 section.izquierda
 {
     padding-left: 60px;
+    padding-top: 80px;
 }
 
 section.izquierda >article:first-child > img
