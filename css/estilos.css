@@ -23,6 +23,11 @@ body
     width: 120vh;
 }
 
+section.izquierda
+{
+    padding-left: 60px;
+}
+
 section.izquierda >article:first-child > img
 {
     width: 120px;
@@ -52,7 +57,13 @@ section.izquierda >article:nth-child(2n)
 section.izquierda >article:nth-child(2n) > p
 {
     grid-column-start: 2;
-    border-bottom: 3px solid yellow;
+    border-bottom: 1px solid yellow;
+}
+
+section.izquierda >article:nth-child(2n) > img
+{
+    grid-column-start: 1;
+    border-bottom: 1px solid yellow;
 }
 
 section.izquierda >article:nth-child(2n) > hr
