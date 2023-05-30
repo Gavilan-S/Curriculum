@@ -43,13 +43,16 @@ section.izquierda > article > h1
     font-size: 40px;
     color: #FFDC0D;
     font-weight: 600;
+    line-height: 1.1;
 }
 
 section.izquierda > article:nth-child(1n) > h2
 {
+    color: #404041;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 section.izquierda >article:nth-child(2n)
@@ -72,6 +75,7 @@ section.izquierda >article:nth-child(2n) > p > span.amarillo
 section.izquierda > article:nth-child(2n) > p
 {
     grid-column-start: 2;
+    color: #595A5A;
 }
 
 section.izquierda > article:nth-child(2n) > img
