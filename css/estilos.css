@@ -43,31 +43,41 @@ section.izquierda > article > h1
     color: yellow;
 }
 
-section.izquierda > article > h2
+section.izquierda > article:nth-child(1n) > h2
 {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 section.izquierda >article:nth-child(2n)
 {
     display: grid;
     grid-template-columns: 10% 90%;
+    padding: 20px 0;
 }
 
-section.izquierda >article:nth-child(2n) > p
+section.izquierda >article:nth-child(2n) > p 
+{
+    font-size: 14px;
+}
+
+section.izquierda >article:nth-child(2n) > p > span.amarillo
+{
+    color: yellow;
+}
+
+section.izquierda > article:nth-child(2n) > p
 {
     grid-column-start: 2;
-    border-bottom: 1px solid yellow;
 }
 
-section.izquierda >article:nth-child(2n) > img
+section.izquierda > article:nth-child(2n) > img
 {
     grid-column-start: 1;
-    border-bottom: 1px solid yellow;
 }
 
-section.izquierda >article:nth-child(2n) > hr
+section.izquierda > article:nth-child(2n) > p:nth-child(1n), section.izquierda > article:nth-child(2n) > p:nth-child(2n)
 {
-    border: 5px dotted yellow;
+    border-bottom: 1px solid yellow;
 }
