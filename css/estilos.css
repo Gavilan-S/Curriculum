@@ -81,3 +81,17 @@ section.izquierda > article:nth-child(2n) > p:nth-child(1n), section.izquierda >
 {
     border-bottom: 1px solid yellow;
 }
+
+section.izquierda > article:nth-child(3n) > div
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-transform: uppercase;
+}
+
+section.izquierda > article:nth-child(3n) > h3
+{
+    color: yellow;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
