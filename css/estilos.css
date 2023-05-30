@@ -65,17 +65,14 @@ section.izquierda >article:nth-child(2n)
 section.izquierda >article:nth-child(2n) > p 
 {
     font-size: 14px;
-}
-
-section.izquierda >article:nth-child(2n) > p > span.amarillo
-{
-    color: #FFDC0D;
-}
-
-section.izquierda > article:nth-child(2n) > p
-{
     grid-column-start: 2;
     color: #595A5A;
+}
+
+section.izquierda >article:nth-child(2n) > p > span
+{
+    color: #FFDC0D;
+    font-weight: 600;
 }
 
 section.izquierda > article:nth-child(2n) > img
@@ -95,9 +92,19 @@ section.izquierda > article:nth-child(3n) > div
     text-transform: uppercase;
 }
 
-section.izquierda > article:nth-child(3n) > h3
+h3.tituloAmarillo
 {
     color: #FFDC0D;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+section.izquierda > article:nth-child(3n) > h3
+{
     margin-bottom: 20px;
+}
+
+section.izquierda > article:nth-child(3n) > div > progress
+{
+    background-color:#FFDC0D   
 }
